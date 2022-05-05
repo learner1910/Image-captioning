@@ -1,0 +1,6 @@
+parked
+box
+bus
+car
+pose
+water

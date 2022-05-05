@@ -1,0 +1,16 @@
+sink
+kitchen
+helmet
+seat
+blanket
+bikes
+cage
+statue
+open
+cat
+window
+drivers
+toilet
+bike
+food
+car

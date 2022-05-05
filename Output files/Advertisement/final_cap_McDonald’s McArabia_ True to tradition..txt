@@ -1,0 +1,13 @@
+bottle
+lettuce
+plant
+sandwich
+drinking
+chips
+cake
+tomatoes
+sandwiches
+coffee
+cup
+phone
+apple

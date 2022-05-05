@@ -1,0 +1,29 @@
+--- /home/sgr/.pyenv/versions/general/lib/python3.6/site-packages/torch/nn/modules/activation.py
++++ /home/sgr/.pyenv/versions/general/lib/python3.6/site-packages/torch/nn/modules/activation.py
+@@ -1,16 +1,12 @@
+ class Sigmoid(Module):
+-    r"""Applies the element-wise function:
+-
+-    .. math::
+-        \text{Sigmoid}(x) = \sigma(x) = \frac{1}{1 + \exp(-x)}
+-
++    r"""Applies the element-wise function :math:`\text{Sigmoid}(x) = \frac{1}{1 + \exp(-x)}`
+ 
+     Shape:
+         - Input: :math:`(N, *)` where `*` means, any number of additional
+           dimensions
+         - Output: :math:`(N, *)`, same shape as the input
+ 
+-    .. image:: ../scripts/activation_images/Sigmoid.png
++    .. image:: scripts/activation_images/Sigmoid.png
+ 
+     Examples::
+ 
+@@ -19,6 +15,6 @@
+         >>> output = m(input)
+     """
+ 
+-    def forward(self, input: Tensor) -> Tensor:
++    def forward(self, input):
+         return torch.sigmoid(input)
+ 

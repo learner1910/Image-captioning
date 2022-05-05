@@ -1,0 +1,11 @@
+colored
+animals
+outfit
+tree
+fruit
+candles
+food
+phone
+field
+dress
+window
